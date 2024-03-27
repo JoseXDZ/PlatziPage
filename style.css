@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+
+
+body {
+  background-color: #00c3ff;
+  font-family: 'Prostest-riot', cursive;
+ background-color: #00b7ff;
+ background-size: 1500px;
+ color: rgb(0, 0, 0);
+ }
+
+
+ #seleccionar-Mascota{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+color: rgb(0, 0, 0);
+ }
+
+ #seleccionar-ataque {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+ }
+
+ #Opinar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+ }
+ 
+.label {
+background-color: #00ff00;
+
+ }
+
+ .targeta-de-mascota{
+height: 100px;
+width: 200px;
+background-color: #ffffff;
+border-radius: 10px;
+font-size: larger;
+display:flex;
+
+}
+
+.targeta-de-mascota img {
+width: 100px;
+
+}
+
+   .title {
+display: flex;
+flex-direction:column ;
+ justify-content: center;
+ align-items: center;
+
+   }
+
+   .Parrafo {
+    display: flex;
+    flex-direction:column ;
+     justify-content: center;
+     align-items: center;
+    
+       }
+
+       .tarjetas {
+display: flex;
+gap: 10px;
+
+       }
+
+       #seleccionar {
+        display: flex;
+        flex-direction:column ;
+         justify-content: center;
+         align-items: center;
+        cursor: grab;
+        }
+
+        #boton-seleccionar {
+display: flex;
+color: #000000;
+background-color: #c9c9c9;
+width: 200px;
+height: 50px;
+font-size:35px;
+font-family: 'Prostest-riot', cursive;
+border-radius: 20px;
+margin-top: 30px;
+cursor: pointer;
+        }
+
+        .tarjeta-de-mokepon:hover {
+          cursor: pointer;
+      }
